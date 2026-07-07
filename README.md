@@ -76,7 +76,7 @@ The pipeline (see [`docs/workflow_diagram.png`](docs/workflow_diagram.png) for t
 
 ```bash
 git clone https://github.com/tarekjundi10/HAR-WildSHARD-EnsembleML.git
-cd <your-repo-name>
+cd HAR-WildSHARD-EnsembleML
 pip install -r requirements.txt
 ```
 
@@ -100,6 +100,41 @@ The raw dataset is **not redistributed** in this repository. Please download it 
 
 Detailed results — including per-class confusion matrix breakdowns, ROC/AUC curves per model, feature importance rankings, and a comparison against prior published work on Wild-SHARD — are provided in the accompanying paper: [`docs/paper.pdf`](docs/paper.pdf).
 
+### Visual Preview
+
+<table>
+<tr>
+<td width="50%">
+
+**Extra Trees — Confusion Matrix**
+![Extra Trees Confusion Matrix](results/figures/CM_Extra_Trees.png)
+
+</td>
+<td width="50%">
+
+**ROC Curves — All Models**
+![ROC All Models](results/figures/ROC_All_Models.png)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Logistic Regression — Confusion Matrix**
+![Logistic Regression Confusion Matrix](results/figures/CM_Logistic_Regression.png)
+
+</td>
+<td width="50%">
+
+**Extra Trees — Top 10 Feature Importance**
+![Feature Importance](results/figures/FI_ExtraTrees_Top10.png)
+
+</td>
+</tr>
+</table>
+
+All confusion matrices and ROC curves (per-model and combined) are available in [`results/figures/`](results/figures/).
+
 ## Citation
 
 This work has not yet been published in a venue or conference. If you use this code, methodology, or findings, please cite it as:
@@ -111,7 +146,7 @@ This work has not yet been published in a venue or conference. If you use this c
                   Using Ensemble Machine Learning and Smartphone Inertial Sensors},
   year         = {2026},
   howpublished = {GitHub repository},
-  url          = {https://github.com/<your-username>/<your-repo-name>}
+  url          = {https://github.com/tarekjundi10/HAR-WildSHARD-EnsembleML}
 }
 ```
 
