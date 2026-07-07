@@ -75,7 +75,7 @@ The pipeline (see [`docs/workflow_diagram.png`](docs/workflow_diagram.png) for t
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
+git clone https://github.com/tarekjundi10/HAR-WildSHARD-EnsembleML.git
 cd <your-repo-name>
 pip install -r requirements.txt
 ```
